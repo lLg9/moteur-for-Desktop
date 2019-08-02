@@ -1,0 +1,60 @@
+0 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; auspice; a divine or prophetic token {partfogas} ; "the course is run under the auspices of the Anglican Church"
+1 ; 1 ; [0, 1, 0, 0, 1, 1, 1, 1, 1, 1] ; scathing; witheringly scornful, severely critical {maro, csipos} ; "she launched a scathing attack on the Prime Minister"
+2 ; 1 ; [0, 1, 0, 1, 1, 1, 1, 1, 1, 1] ; cue; a signal for action ; "his success was the cue for the rest of Fleet Street to forge ahead"
+3 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; disband; (with reference to an organized group) break up or cause to break up ; "the unit was scheduled to disband"
+4 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; spat; a quarrel about an unimportant matter ; "when we had our little spats, he had only to smile to get back on the right side of me"
+5 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; ailing; in poor health {gyengelkedo} ; "I went to see my ailing mother"
+6 ; 1 ; [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; doomed; likely to have an unfortunate and inescapable outcome, ill-fated {kudarcra itelt} ; "the moving story of their doomed love affair"
+7 ; 1 ; [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; scramble; make (a broadcast transmission or telephone conversation) unintelligible unless received by an appropriate decoding device ; "the signal is scrambled into code"
+8 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; adversarial; involving or characterized by conflict or opposition {ellenseges} ; "the adversarial nature of the two-party system"
+9 ; 1 ; [1, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; disposal; get rid of by throwing away or giving or selling to someone else ; <some context information>
+10 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; orchard; a piece of enclosed land planted with fruit trees {gyumolcsoskert} ; "an apple orchard"
+11 ; 1 ; [0, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; meadow; a piece of grassland, especially one used for hay {ret} ; "a meadow ready for cutting"
+12 ; 1 ; [0, 1, 1, 0, 1, 1, 1, 1, 1, 1] ; scrutiny; critical observation or examination ; "every aspect of local government was placed under scrutiny"
+13 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; crummy; dirty, unpleasant, or of poor quality ; "a crummy little room"
+14 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; sentinel; a soldier or guard whose job is to stand and keep watch {orszem} ; "soldiers stood sentinel with their muskets"
+15 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; allude; suggest or call attention to indirectly , hint at ; "she had a way of alluding to Jean but never saying her name"
+16 ; 1 ; [0, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; fidelity; faithfulness to a person, cause, or belief, demonstrated by continuing loyalty and support ; <some context information>
+17 ; 1 ; [0, 1, 1, 1, 1, 1, 1, 1, 1, 1] ; mouthful; a long or complicated word or phrase that is difficult to say ; <some context information>
+18 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; suss, suss out; realize , grasp /from suspect/ ; <some context information>
+19 ; 1 ; [1, 1, 0, 1, 1, 1, 1, 1, 1, 1] ; stake; a sum of money or something else of value gambled on the outcome of a risky game or venture ; <some context information>
+20 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; deprecate; express disapproval of ; <some context information>
+21 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; reflow; [computing] the action of rearranging electronic text on a page having varied such features as type size, line length, and spacing ; "my desktop publisher must reflow copy from one column to another automatically"
+22 ; 1 ; [1, 1, 1, 1, 0, 1, 1, 1, 1, 1] ; contentious; causing or likely to cause an argument , controversial {vitas} ; "a contentious issue"
+23 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; perennial; lasting or existing for a long or apparently infinite time , enduring or continually recurring {orok} ; "his perennial distrust of the media"
+24 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; decouple; separate, disengage, or dissociate (something) from something else ; "the mountings effectively decouple movements of the engine from those of the wheels"
+25 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; proliferation; rapid increase in the number or amount of something {burjanzas} ; "a continuing threat of nuclear proliferation"
+26 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; vendor; a person or company offering something for sale, especially a trader in the street ; "an Italian ice-cream vendor"
+27 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; inventory; a complete list of items such as property, goods in stock, or the contents of a building {leltar} ; "a complete inventory of all their belongings"
+28 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; mitigate; make (something bad) less severe, serious, or painful {enyhit} ; "drainage schemes have helped to mitigate this problem"
+29 ; 1 ; [0, 1, 0, 0, 1, 1, 1, 1, 1, 1] ; spade; a tool with a sharp-edged, typically rectangular, metal blade and a long handle, used for digging or cutting earth, sand, turf, etc {aso} ; <some context information>
+30 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; lead time; the time between the initiation and completion of a production process {atfutasi ido} ; "some monthly magazines have a lead time of six months or more"
+31 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; impediment; a hindrance or obstruction in doing something {akadaly, gat} ; "a serious impediment to scientific progress"
+32 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; cadence; a modulation or inflection of the voice {hanglejtes} ; "the measured cadences that he employed in the Senate"
+33 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; lisp; a speech defect in which s is pronounced like th in thick and z is pronounced like th in this {selypites} ; <some context information>
+34 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; jolt; push or shake (someone or something) abruptly and roughly {razkodik, raz} ; "a surge in the crowd behind him jolted him forwards"
+35 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; jibber-jabber; rapid and excited speech that is difficult to understand  ; "he was jibber-jabbering with his wife through the entire first piece"
+36 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; statute; a written law passed by a legislative body {torveny, rendelet} ; "the Act consolidated statutes dealing with non-fatal offences"
+37 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; macro; [computing] a single instruction that expands automatically into a set of instructions to perform a particular task ; <some context information>
+38 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; subsidy; a sum of money granted by the state or a public body to help an industry or business keep the price of a commodity or service low {allami tamogatas} ; "a farm subsidy"
+39 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; cache; a collection of items of the same type stored in a hidden or inaccessible place /fr cacher: to hide/ ; "an arms cache"
+40 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; botch; a bungled task {kontarmunka} ; "I've probably made a botch of things"
+41 ; 1 ; [1, 0, 1, 0, 1, 1, 1, 1, 1, 1] ; stall; stop or cause to stop making progress ; "his career had stalled, hers taken off"
+42 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; plumage; a bird's feathers collectively {tollazat} ; "the male in full breeding plumage"
+43 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; toggle; a short rod of wood or plastic sewn to one side of a coat or other garment, pushed through a hole or loop on the other side and twisted so as to act as a fastener | [computing] switch from one effect, feature, or state to another by using a toggle ; "the play/pause button toggles between those functions"
+44 ; 1 ; [0, 0, 1, 1, 1, 1, 1, 1, 1, 1] ; pivot; the central point, pin, or shaft on which a mechanism turns or oscillates {sarokpont} ; <some context information>
+45 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; pre-empt; take action in order to prevent (an anticipated event) happening , forestall ; "the government pre-empted a coup attempt"
+46 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; cumbersome; large or heavy and therefore difficult to carry or use , unwieldy {nehezkes} ; "cumbersome diving suits"
+47 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; tangible; perceptible by touch / latin tangere : to touch /  ; <some context information>
+48 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; petrify; change (organic matter) into a stony substance by encrusting or replacing it with a calcareous, siliceous, or other mineral deposit /latin petra: rock/ ; <some context information>
+49 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; dump; put (something) down heavily or carelessly | [computing] copy (stored data) to a different location, especially so as to protect against loss ; "she dumped her knapsack on the floor"
+50 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; unwieldy; (of a system) too large or disorganized to function efficiently {ormotlan, esetlen} ; "the benefits system is unwieldy and unnecessarily complex"
+51 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; idle; (of a person) avoiding work , lazy ; "idle students"
+52 ; 1 ; [0, 0, 0, 0, 1, 1, 1, 1, 1, 1] ; forestall; prevent or obstruct (an anticipated event or action) by taking advance action ; "they will present their resignations to forestall a vote of no confidence"
+53 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; grind; hard dull work | reduce (something) to small particles or powder by crushing it {orol, daral} ; "relief from the daily grind" | "grind some black pepper over the salad"
+54 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; artillery; large-calibre guns used in warfare on land {tuzerseg} ; "tanks and heavy artillery"
+55 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; litigation; the process of taking legal action {pereskedes} ; "the company wishes to avoid litigation"
+56 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; mount; climb up (stairs, a hill, or other rising surface) | establish , set up ; "he mounted the steps" | "security forces mounted check points at every key road"
+57 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; venture; a risky or daring journey or undertaking {vallalkozas} ; "pioneering ventures into little-known waters"
+58 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; fall out (with someone) ; have an argument ; "he had fallen out with his family"
+59 ; 1 ; [0, 0, 0, 1, 1, 1, 1, 1, 1, 1] ; statutory; required, permitted, or enacted by statute ; <some context information>
