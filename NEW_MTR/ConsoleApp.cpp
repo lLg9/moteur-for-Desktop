@@ -164,4 +164,12 @@ void finish(Moteur& mtr){
 
 void recap(Moteur& mtr){
 	//to impl;
+	std::vector<WordStruct> msd = mtr.recapMissed();
+	for (WordStruct ws : msd){
+		std::cout
+		<< "word : " << ws.word << "\n"
+		<< "transl : " << ws.transl << "\n"
+		<< "example : " << ws.example << "\n"
+		<< "----------------------------------------------------------------------------\n\n\n";
+	}
 }

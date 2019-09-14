@@ -25,6 +25,7 @@ private:
 
     //private fields
     int remaining;
+    WordStruct currentWord;
     bool waitingForAnswer;
     bool contentExported;
     const std::string FOLDER_PATH;
@@ -32,6 +33,7 @@ private:
     std::vector<WordData> wDataVector;
     WordRanks wRanks;
     std::list<int> wPracticeList;
+    std::vector<WordStruct> missedWords;
 };
 
 
@@ -58,6 +60,7 @@ private:
             ws.word = wDataVector[wPracticeList.front()].word;
             ws.transl = wDataVector[wPracticeList.front()].transl;
             ws.example = wDataVector[wPracticeList.front()].example;
+            currentWord = ws;
             remaining--;
             waitingForAnswer = true;
             return ws;
@@ -87,6 +90,9 @@ private:
     void Moteur::giveFeedback(bool succ) {
         //TBD: add missed ones to wMmissedList
         if (remaining >= 0 && waitingForAnswer) {
+            if (!succ)
+                missedWords.push_back(currentWord);
+
             int current = wPracticeList.front();
             wPracticeList.pop_front();
             int newrank = wDataVector[current].updateRank(succ);
@@ -102,7 +108,7 @@ private:
     }
 
     std::vector<WordStruct> Moteur::recapMissed() {
-        return std::vector<WordStruct>();
+        return missedWords;
     }
 
     void Moteur::loadPracticeList(){
