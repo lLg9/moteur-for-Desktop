@@ -6,7 +6,7 @@
 #include "iMoteur.h"
 #include "WordStruct.h"
 
-const int pack_limit = 1;
+const int pack_limit = 19;
 
 std::string PATH = "./files/Deutsch/";
 int PACKAGENUM;
@@ -165,11 +165,15 @@ void finish(Moteur& mtr){
 void recap(Moteur& mtr){
 	//to impl;
 	std::vector<WordStruct> msd = mtr.recapMissed();
+
+	std::cout 
+	<< "\n----------------------------------------------------------------------------\n\n";
+
 	for (WordStruct ws : msd){
 		std::cout
 		<< "word : " << ws.word << "\n"
 		<< "transl : " << ws.transl << "\n"
-		<< "example : " << ws.example << "\n"
-		<< "----------------------------------------------------------------------------\n\n\n";
+		<< "example : " << ws.example << "\n\n"
+		<< "----------------------------------------------------------------------------\n\n";
 	}
 }

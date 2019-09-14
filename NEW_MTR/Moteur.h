@@ -20,8 +20,11 @@ public:
 private:
     //private methods
     void loadPracticeList();
-    void load20();
     void loadAll();
+    void load20();
+    void loadPM();
+
+
 
     //private fields
     int remaining;
@@ -112,12 +115,31 @@ private:
     }
 
     void Moteur::loadPracticeList(){
-        if (NUM_LOAD==20){
-            load20();
-        }
-        else{
+        if (NUM_LOAD==60){
             loadAll();
         }
+        else if (NUM_LOAD==20){
+            load20();
+        }
+        else if (NUM_LOAD==0){
+            loadPM();
+        }
+
+    }
+
+    void Moteur::loadAll(){
+        for (int i : wRanks.poor)
+            wPracticeList.push_back(i);
+        for (int i : wRanks.medium)
+            wPracticeList.push_back(i);
+        for (int i : wRanks.good)
+            wPracticeList.push_back(i);
+        wRanks.good.clear();
+        wRanks.medium.clear();
+        wRanks.poor.clear();
+        std::vector<int> tempvec = std::vector<int>(wPracticeList.begin(), wPracticeList.end());
+        std::shuffle (tempvec.begin(), tempvec.end(), std::default_random_engine(0));
+        wPracticeList = std::list<int>(tempvec.begin(), tempvec.end());
     }
 
     void Moteur::load20(){
@@ -148,16 +170,15 @@ private:
         wPracticeList = std::list<int>(tempvec.begin(), tempvec.end());
     }
 
-    void Moteur::loadAll(){
-        for (int i : wRanks.poor)
-            wPracticeList.push_back(i);
-        for (int i : wRanks.medium)
-            wPracticeList.push_back(i);
-        for (int i : wRanks.good)
-            wPracticeList.push_back(i);
-        wRanks.good.clear();
-        wRanks.medium.clear();
-        wRanks.poor.clear();
+    void Moteur::loadPM(){
+        while (wRanks.poor.size() != 0){
+                wPracticeList.push_back(wRanks.poor.front());
+                wRanks.poor.pop_front();
+        }
+        while (wRanks.medium.size() != 0){
+                wPracticeList.push_back(wRanks.medium.front());
+                wRanks.medium.pop_front();
+        }
         std::vector<int> tempvec = std::vector<int>(wPracticeList.begin(), wPracticeList.end());
         std::shuffle (tempvec.begin(), tempvec.end(), std::default_random_engine(0));
         wPracticeList = std::list<int>(tempvec.begin(), tempvec.end());
