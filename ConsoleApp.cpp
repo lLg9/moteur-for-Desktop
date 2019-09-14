@@ -8,7 +8,7 @@
 
 const int pack_limit = 19;
 
-std::string PATH = "./files/Deutsch/";
+std::string PATH = "./content/Deutsch/";
 int PACKAGENUM;
 int NUMTOLOAD;
 char MODE;

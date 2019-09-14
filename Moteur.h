@@ -144,22 +144,18 @@ private:
 
     void Moteur::load20(){
         int counter = 20;
-        for (int i = 0; i < 12; i++){
-            if (wRanks.poor.size() != 0){
-                wPracticeList.push_back(wRanks.poor.front());
-                wRanks.poor.pop_front();
-                counter--;
-            }
-            else break;
+        while(wRanks.poor.size() != 0 && counter > 0){
+            wPracticeList.push_back(wRanks.poor.front());
+            wRanks.poor.pop_front();
+            counter--;
         }
-        for (int i = 0; i < 6; i++){
-            if (wRanks.medium.size() != 0){
-                wPracticeList.push_back(wRanks.medium.front());
-                wRanks.medium.pop_front();
-                counter--;
-            }
-            else break;
+        counter = std::min((int)(20 - wPracticeList.size()), 8);
+        while(wRanks.medium.size() != 0 && counter > 0){
+            wPracticeList.push_back(wRanks.medium.front());
+            wRanks.medium.pop_front();
+            counter--;
         }
+        counter = std::min((int)(20 - wPracticeList.size()), 2);
         while (counter != 0 && wRanks.good.size() != 0){
             wPracticeList.push_back(wRanks.good.front());
             wRanks.good.pop_front();
