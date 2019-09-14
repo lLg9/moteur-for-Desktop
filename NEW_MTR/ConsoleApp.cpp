@@ -8,7 +8,7 @@
 
 const int pack_limit = 1;
 
-std::string PATH;
+std::string PATH = "./files/Deutsch/";
 int PACKAGENUM;
 int NUMTOLOAD;
 char MODE;
@@ -17,15 +17,21 @@ int remaining = 8;
 WordStruct currWord; 
 char answer;
 
+void paramSetup(bool& checker, char* params[]);
 void setUp();
 void wait();
 void play(Moteur& mtr);
 void finish(Moteur& mtr);
 void recap(Moteur& mtr);
 
-int main(){
 
-	setUp();
+int main(int argc, char* argv[]){
+	bool correctParamSetup = false;
+
+	if (argc == 4)
+		paramSetup(correctParamSetup, argv);
+	if (!correctParamSetup)
+		setUp();
 	Moteur mtr = Moteur(PATH, NUMTOLOAD);
 	wait();
 	play(mtr);
@@ -36,10 +42,40 @@ int main(){
 	return 0;
 }
 
-void setUp(){
-	PATH = "./files/Deutsch/";
-	std::string dummy;
+/////////////////////////////////////////////////////////////////////////
+/////////////////FUNCTION_IMPLEMENTATIONS////////////////////////////////
 
+void paramSetup(bool& checker, char* params[]){
+	try{
+		int pack = std::stoi(params[1]);
+		if (pack < 1 || pack > pack_limit)
+			return;
+		PACKAGENUM = pack;
+
+		std::string num = params[2];
+		if (num != "60" && num != "20" && num != "pm" )
+			return;
+		if (num == "pm"){
+			NUMTOLOAD = 0;
+		}
+		else
+			NUMTOLOAD = std::stoi(num);
+
+		std::string mod = params[3];
+		if (mod.length() != 1 || (mod[0] != 'w' && mod[0] != 't') )
+			return;
+		MODE = mod[0];
+
+	}catch(std::invalid_argument){
+		return;
+	}
+
+	PATH += std::to_string(PACKAGENUM) + "/";
+	checker = true;
+	return;
+}
+
+void setUp(){
 	do{
 		std::cout << "package:";
 		std::cin >> PACKAGENUM;
