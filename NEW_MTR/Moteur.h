@@ -9,10 +9,10 @@
 #include <bits/stdc++.h> 
 
 
-class Moteur : iMoteur {
+class Moteur : public iMoteur {
 public: 
     //constructor
-    Moteur(std::string folderPath, int packageNum, int numToLoad);
+    Moteur(std::string folderPath, int numToLoad);
     //public methods
     WordStruct getNext();
     void giveFeedback(bool succ);
@@ -28,7 +28,6 @@ private:
     bool waitingForAnswer;
     bool contentExported;
     const std::string FOLDER_PATH;
-    const int PACK_NUM;
     const int NUM_LOAD;
     std::vector<WordData> wDataVector;
     WordRanks wRanks;
@@ -39,9 +38,8 @@ private:
 //---------------------CPP------------------------------------
 
 
-    Moteur::Moteur(std::string folderPath, int packageNum, int numToLoad) :
+    Moteur::Moteur(std::string folderPath, int numToLoad) :
         FOLDER_PATH(folderPath) ,
-        PACK_NUM(packageNum) ,
         NUM_LOAD(numToLoad) ,
         waitingForAnswer(false),
         contentExported(false)
